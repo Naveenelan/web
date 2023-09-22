@@ -1,0 +1,150 @@
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    justify-content: center;
+}
+
+p {
+    color: rgb(54, 42, 165);
+    text-indent: 30px;
+    text-align: justify;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1;
+    margin-right: 50;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+
+.overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Adjust color and opacity */
+    opacity: 0;
+    transition: opacity 0.3s;
+    justify-content: center;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    width: 80%;
+}
+
+/* nav bar */
+.topnav {
+    overflow: hidden;
+    background-color: #45464d50;
+}
+
+.topnav a {
+    float: left;
+    color: #151310;
+    text-align: center;
+    font-weight: 900;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: hwb(33 44% 43%);
+    color: rgb(179, 33, 33);
+}
+
+.topnav a.active {
+    background-color: #bb6449;
+    color: rgba(173, 185, 119, 0.893);
+}
+
+/* Table */
+table,
+th,
+td {
+    border: 1px solid black;
+
+}
+
+.highlight {
+    background-color: rgb(156, 189, 194);
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    width: 90%;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.centered {
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.list-container {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px;
+}
